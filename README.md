@@ -260,7 +260,7 @@ synthetic data only; the `api_keys` table values such as `sk-sso-...` are fake s
 
 - Re-asking / delegation study (Plan D): **Lance Santiago**.
 - Split-commit monitoring study (commit monitor): **Mario Sepriano**.
-- Team: Iraj Moradi, Jenifer Nguyen, Lance Santiago, Mario Sepriano, Noor (Apart Research Swarm Alignment Hackathon, November 2026).
+- Team (author order randomized): Noor, Lance Santiago, Iraj Moradi, Jenifer Nguyen, Mario Sepriano (Apart Research Swarm Alignment Hackathon, November 2026).
 - Code was written with LLM coding assistants during the hackathon (see the paper's LLM Usage Statement).
 
 ## License
