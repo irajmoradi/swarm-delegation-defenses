@@ -258,8 +258,8 @@ synthetic data only; the `api_keys` table values such as `sk-sso-...` are fake s
 
 ## Authorship
 
-- Re-asking / delegation study (Plan D): **Lance** (TODO: full name, affiliation).
-- Split-commit monitoring study (commit monitor): **Mario** (TODO: full name, affiliation).
+- Re-asking / delegation study (Plan D): **Lance Santiago**.
+- Split-commit monitoring study (commit monitor): **Mario Sepriano**.
 - TODO: author order, other contributors, and the paper's [CONTRIB_CONFIRM] statement.
 - Code was written with LLM coding assistants during the hackathon (see the paper's LLM Usage Statement).
   TODO: declare any code written before the sprint weekend ([PRIOR_CODE]).
