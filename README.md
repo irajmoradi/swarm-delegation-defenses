@@ -208,7 +208,7 @@ Hugging Face cache (it runs offline and will not download).
 
 The attacks are inert edits to a fake repository using reserved `.example` domains. PILOT_RESULTS.md
 and the paper describe the attackers at a high level only. Researchers who need the chains for defensive
-work can ask the authors (TODO: contact).
+work can ask the authors via a GitHub issue on this repository.
 
 **Not included, Plan D:** raw API call logs (`calls.jsonl`), `flagged.jsonl`, the shared spend ledger,
 per-run `source/` snapshots (hashes are in `config.json`), the sprint handoff archive, and episodes for
@@ -260,9 +260,8 @@ synthetic data only; the `api_keys` table values such as `sk-sso-...` are fake s
 
 - Re-asking / delegation study (Plan D): **Lance Santiago**.
 - Split-commit monitoring study (commit monitor): **Mario Sepriano**.
-- TODO: author order, other contributors, and the paper's [CONTRIB_CONFIRM] statement.
+- Team: Iraj Moradi, Jenifer Nguyen, Lance Santiago, Mario Sepriano, Noor (Apart Research Swarm Alignment Hackathon, November 2026).
 - Code was written with LLM coding assistants during the hackathon (see the paper's LLM Usage Statement).
-  TODO: declare any code written before the sprint weekend ([PRIOR_CODE]).
 
 ## License
 
