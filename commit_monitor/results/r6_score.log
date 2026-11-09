@@ -1,0 +1,20 @@
+jobs=2789 uncached=2054 est=$1.355 ledger=$12.9643 cap=$17.80
+  250/2789 done, ledger=$13.0315
+  500/2789 done, ledger=$13.1121
+  750/2789 done, ledger=$13.2248
+  1000/2789 done, ledger=$13.3273
+  1250/2789 done, ledger=$13.4408
+  1500/2789 done, ledger=$13.6116
+  1750/2789 done, ledger=$13.8687
+  2000/2789 done, ledger=$14.1398
+  2250/2789 done, ledger=$14.4754
+  2500/2789 done, ledger=$14.8509
+  2750/2789 done, ledger=$15.3109
+Traceback (most recent call last):
+  File "commit_monitor/src/experiment6.py", line 171, in <module>
+    main(ap.parse_args())
+  File "commit_monitor/src/experiment6.py", line 155, in main
+    rows.append(dict(sid=s["sid"], role=s["role"], N=N, chain=s["chain"], pattern=s["pattern"],
+                                                                                  ~^^^^^^^^^^^
+KeyError: 'pattern'
+EXIT 1

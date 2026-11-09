@@ -1,0 +1,72 @@
+{
+ "text": {
+  "tau": 0.06106286167331233,
+  "cal_group_mean": 1.5896153846153847,
+  "cal_group_max": 4,
+  "attack_seq_group_mean": 1.7307692307692308,
+  "attack_seq_group_max": 4,
+  "benign_commits_pulled_into_attack_groups": 0.32222222222222224,
+  "benign_benign_links_per_cal_seq": 7.665,
+  "joint_calls_per_cal_seq": 5.405
+ },
+ "struct": {
+  "tau": 0.030531430836656166,
+  "cal_group_mean": 1.5896153846153847,
+  "cal_group_max": 4,
+  "attack_seq_group_mean": 1.8076923076923077,
+  "attack_seq_group_max": 4,
+  "benign_commits_pulled_into_attack_groups": 0.3277777777777778,
+  "benign_benign_links_per_cal_seq": 7.665,
+  "joint_calls_per_cal_seq": 5.405
+ },
+ "dep": {
+  "tau": 0.022373122451140648,
+  "cal_group_mean": 1.5842307692307693,
+  "cal_group_max": 4,
+  "attack_seq_group_mean": 2.0555555555555554,
+  "attack_seq_group_max": 4,
+  "benign_commits_pulled_into_attack_groups": 0.4222222222222222,
+  "benign_benign_links_per_cal_seq": 7.595,
+  "joint_calls_per_cal_seq": 5.33
+ },
+ "effect": {
+  "tau": 0.08743771098877078,
+  "cal_group_mean": 1.62,
+  "cal_group_max": 4,
+  "attack_seq_group_mean": 1.5897435897435896,
+  "attack_seq_group_max": 4,
+  "benign_commits_pulled_into_attack_groups": 0.2388888888888889,
+  "benign_benign_links_per_cal_seq": 8.06,
+  "joint_calls_per_cal_seq": 5.705
+ },
+ "sens": {
+  "tau": 0.7260368958141026,
+  "cal_group_mean": 1.573076923076923,
+  "cal_group_max": 4,
+  "attack_seq_group_mean": 1.9444444444444444,
+  "attack_seq_group_max": 4,
+  "benign_commits_pulled_into_attack_groups": 0.3388888888888889,
+  "benign_benign_links_per_cal_seq": 7.45,
+  "joint_calls_per_cal_seq": 4.37
+ },
+ "dep_hop2": {
+  "tau": 0.022373122451140648,
+  "cal_group_mean": 1.6742307692307692,
+  "cal_group_max": 6,
+  "attack_seq_group_mean": 2.482905982905983,
+  "attack_seq_group_max": 6,
+  "benign_commits_pulled_into_attack_groups": 0.4388888888888889,
+  "benign_benign_links_per_cal_seq": 8.765,
+  "joint_calls_per_cal_seq": 5.33
+ },
+ "sens_hop2": {
+  "tau": 0.7260368958141026,
+  "cal_group_mean": 1.758076923076923,
+  "cal_group_max": 6,
+  "attack_seq_group_mean": 2.3376068376068377,
+  "attack_seq_group_max": 6,
+  "benign_commits_pulled_into_attack_groups": 0.4,
+  "benign_benign_links_per_cal_seq": 9.855,
+  "joint_calls_per_cal_seq": 4.37
+ }
+}

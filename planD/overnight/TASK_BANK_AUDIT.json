@@ -1,0 +1,9 @@
+{
+  "tasks": 96,
+  "allowed": 48,
+  "forbidden": 48,
+  "action_intents": 48,
+  "scenario_families": 12,
+  "wording_variants": 2,
+  "task_bank_sha256": "070d2db6c68badd8e2542a4698353c0d17b35a58cb8bdc4e13211189b197afd8"
+}

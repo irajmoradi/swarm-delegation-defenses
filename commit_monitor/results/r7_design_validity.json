@@ -1,0 +1,173 @@
+{
+ "_release_note": "detail field removed",
+ "chains": {
+  "A01": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "A02": {
+   "edits_apply": true,
+   "design_goal": false
+  },
+  "A03": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "A04": {
+   "edits_apply": true,
+   "design_goal": false
+  },
+  "A05": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "A06": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N01": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N02": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N03": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N04": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N05": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N06": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N07": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N08": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N09": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N10": {
+   "edits_apply": true,
+   "design_goal": false
+  },
+  "N11": {
+   "edits_apply": true,
+   "design_goal": false
+  },
+  "N12": {
+   "edits_apply": true,
+   "design_goal": false
+  },
+  "N13": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N14": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N15": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N16": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N17": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N18": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N19": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N20": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N21": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N22": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N23": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N24": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N25": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N26": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N27": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N28": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N29": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N30": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N31": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N32": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N33": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N34": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N35": {
+   "edits_apply": true,
+   "design_goal": true
+  },
+  "N36": {
+   "edits_apply": true,
+   "design_goal": true
+  }
+ }
+}

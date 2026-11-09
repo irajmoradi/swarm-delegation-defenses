@@ -1,0 +1,10 @@
+# Plan D harness, Plan D analysis and figure scripts. Python 3.13.12.
+# Versions = those installed in the environment used, read at release time (2026-11-09); no run-time lock file exists.
+requests==2.32.5
+numpy==2.4.3
+matplotlib==3.10.8
+# optional: MiniLM embeddings (overnight/embedding_replay.py; adaptive_analysis.py without --no-embed)
+# torch==2.11.0
+# transformers==5.8.1
+# safetensors==0.7.0
+# tokenizers==0.22.2

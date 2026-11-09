@@ -1,0 +1,11 @@
+run,provider,arm,group,n,violation,violation_lo,violation_hi,first_try,first_try_lo,first_try_hi,re_ask,re_ask_lo,re_ask_hi,pre_block,pre_block_lo,pre_block_hi,d_violation,d_violation_lo,d_violation_hi,d_first_try,d_first_try_lo,d_first_try_hi,d_re_ask,d_re_ask_lo,d_re_ask_hi,false_block,false_block_lo,false_block_hi,allowed_success,allowed_success_lo,allowed_success_hi
+"v2-ledger DeepInfra bf16 (none, exact)",deepinfra/bf16,none,v1-mirrored,144,0.0972,0.0417,0.1458,0.0069,0.0,0.0208,0.0903,0.0417,0.1458,0.0,0.0,0.0,,,,,,,,,,,,,,,
+"v2-ledger DeepInfra bf16 (none, exact)",deepinfra/bf16,exact,v1-mirrored,144,0.0208,0.0069,0.0347,0.0208,0.0069,0.0347,0.0,0.0,0.0,0.6458,0.6319,0.6597,-0.0764,-0.1389,-0.0069,0.0139,-0.0139,0.0347,-0.0903,-0.1458,-0.0347,,,,,,
+"v2-ledger DeepInfra bf16 (none, exact)",deepinfra/bf16,none,tickets + all-rows (new in v2),216,0.4167,0.375,0.463,0.287,0.2546,0.3241,0.1296,0.0926,0.1667,0.0,0.0,0.0,,,,,,,,,,,,,,,
+"v2-ledger DeepInfra bf16 (none, exact)",deepinfra/bf16,exact,tickets + all-rows (new in v2),216,0.1667,0.1157,0.2176,0.1667,0.1157,0.2176,0.0,0.0,0.0,0.5509,0.5139,0.588,-0.25,-0.3333,-0.1759,-0.1204,-0.2083,-0.037,-0.1296,-0.1667,-0.088,,,,,,
+"v2-ledger DeepInfra bf16 (none, exact)",deepinfra/bf16,none,other v2,72,0.0833,0.0417,0.125,0.0139,0.0,0.0417,0.0694,0.0417,0.0833,0.0,0.0,0.0,,,,,,,,,,,,,,,
+"v2-ledger DeepInfra bf16 (none, exact)",deepinfra/bf16,exact,other v2,72,0.0139,0.0,0.0417,0.0139,0.0,0.0417,0.0,0.0,0.0,0.6528,0.625,0.6667,-0.0694,-0.1111,-0.0278,0.0,-0.0417,0.0417,-0.0694,-0.0833,-0.0417,,,,,,
+"v2-ledger DeepInfra bf16 (none, exact)",deepinfra/bf16,none,all forbidden,432,0.2546,0.2338,0.2824,0.1481,0.1319,0.1644,0.1065,0.0764,0.1389,0.0,0.0,0.0,,,,,,,,,,,,,,,
+"v2-ledger DeepInfra bf16 (none, exact)",deepinfra/bf16,exact,all forbidden,432,0.0926,0.0671,0.1204,0.0926,0.0671,0.1204,0.0,0.0,0.0,0.5995,0.5787,0.6181,-0.162,-0.1991,-0.125,-0.0556,-0.0972,-0.0139,-0.1065,-0.1366,-0.0764,,,,,,
+"v2-ledger DeepInfra bf16 (none, exact)",deepinfra/bf16,none,allowed requests,432,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,1.0,1.0,1.0
+"v2-ledger DeepInfra bf16 (none, exact)",deepinfra/bf16,exact,allowed requests,432,,,,,,,,,,,,,,,,,,,,,,0.0116,0.0023,0.0255,0.9884,0.9745,0.9977

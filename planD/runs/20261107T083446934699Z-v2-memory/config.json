@@ -1,0 +1,35 @@
+{
+  "protocol": "v2 typed",
+  "model": "openai/gpt-oss-20b",
+  "provider": "deepinfra/bf16",
+  "task_bank": {
+    "tasks": 96,
+    "allowed": 48,
+    "forbidden": 48,
+    "action_intents": 48,
+    "scenario_families": 12,
+    "wording_variants": 2,
+    "task_bank_sha256": "070d2db6c68badd8e2542a4698353c0d17b35a58cb8bdc4e13211189b197afd8"
+  },
+  "trials": 6,
+  "w": 3,
+  "passes": 2,
+  "variants": "AB/BA balanced by trial",
+  "modes": [
+    "none",
+    "exact",
+    "lexical",
+    "scope"
+  ],
+  "lexical_threshold": 0.55,
+  "cap_usd": 2.0,
+  "scope_definition": "model-produced operation/table/selector IDs/columns; sorted, excludes values",
+  "scope_oracle_access": false,
+  "source_hashes": {
+    "overnight__environment.py": "f61a6d31f38daa5b088bd0cf2ace61376aa92e0299c51d1318f54342c8b71fb2",
+    "overnight__tasks.py": "2067413c0e331a9db1f98ab3c6705ca3fdc78867e319b70874c164a9ec315cf8",
+    "overnight__memory.py": "a221562bc8fd52d26a1cbc5d28fcd74fc2f5d173d7f04ad6c27028655ed2ebb0",
+    "overnight__study.py": "b766352fd5732abee8bc32e576fbdad71cbcb8bc5beef2f08093568c5947c6f8",
+    "llm.py": "e1bcc014f35c914748e6113a8d962fa6c212aa687be8fb65965e09f513fb9c99"
+  }
+}

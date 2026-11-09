@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "completed_jobs": 640,
+  "planned_jobs": 640,
+  "budget_before_usd": 0.00145204,
+  "budget_after_usd": 0.044484592,
+  "key_status_after": {
+    "usage": 0.038440352,
+    "limit": 50,
+    "limit_remaining": 49.961559648
+  }
+}

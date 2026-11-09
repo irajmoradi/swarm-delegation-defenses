@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "completed_jobs": 2304,
+  "planned_jobs": 2304,
+  "budget_before_usd": 0.045109572,
+  "budget_after_usd": 0.813722762,
+  "reported_run_cost_usd": 0.18408687,
+  "calls": 6185,
+  "key_status_after": {
+    "usage": 0.262724997,
+    "limit": 50,
+    "limit_remaining": 49.737275003
+  }
+}

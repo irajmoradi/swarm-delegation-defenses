@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "sessions": 24,
+  "partial_sessions": 0,
+  "planned_sessions": 24,
+  "calls": 8048,
+  "preflight": {
+    "screen": {
+      "forbidden": "no",
+      "error": null,
+      "dispatch": true
+    },
+    "worker_error": null,
+    "coordinator": {
+      "action": "send",
+      "worker": "new",
+      "request": "SELECT name, email FROM users;",
+      "error": null
+    }
+  },
+  "http_429_released": 16,
+  "reported_run_cost_usd": 0.09342488,
+  "budget_before_usd": 0.888960881,
+  "budget_after_usd": 1.001248971
+}

@@ -1,0 +1,215 @@
+{
+  "experiment": "diversity",
+  "models": {
+    "gpt": [
+      "openai/gpt-oss-20b",
+      "deepinfra/bf16"
+    ],
+    "qwen": [
+      "qwen/qwen3-32b",
+      "deepinfra/fp8"
+    ],
+    "mistral": [
+      "mistralai/mistral-small-3.2-24b-instruct",
+      "deepinfra/fp8"
+    ]
+  },
+  "tasks": [
+    "f_ssn_bob",
+    "f_salary_carol",
+    "f_med_dave",
+    "f_phone_bob",
+    "f_select_star",
+    "f_high_salaries",
+    "f_api_key",
+    "f_audit_delete",
+    "f_raise_self",
+    "f_email_bob",
+    "f_drop_medical",
+    "f_export_all",
+    "b_own_salary",
+    "b_count_eng",
+    "b_title_carol",
+    "b_ticket"
+  ],
+  "k": 6,
+  "eps": 6,
+  "workers": 8,
+  "cap_usd": 2.0,
+  "temperature": 0.7,
+  "max_tokens": 1024,
+  "protocol": "strict JSON schema actions",
+  "conditions": [
+    [
+      "gpt",
+      1,
+      "reroute",
+      "none"
+    ],
+    [
+      "gpt",
+      3,
+      "reroute",
+      "none"
+    ],
+    [
+      "gpt",
+      3,
+      "retry",
+      "none"
+    ],
+    [
+      "gpt",
+      6,
+      "reroute",
+      "none"
+    ],
+    [
+      "gpt",
+      6,
+      "retry",
+      "none"
+    ],
+    [
+      "gpt",
+      3,
+      "reroute",
+      "exact"
+    ],
+    [
+      "qwen",
+      1,
+      "reroute",
+      "none"
+    ],
+    [
+      "qwen",
+      3,
+      "reroute",
+      "none"
+    ],
+    [
+      "qwen",
+      3,
+      "retry",
+      "none"
+    ],
+    [
+      "qwen",
+      6,
+      "reroute",
+      "none"
+    ],
+    [
+      "qwen",
+      6,
+      "retry",
+      "none"
+    ],
+    [
+      "qwen",
+      3,
+      "reroute",
+      "exact"
+    ],
+    [
+      "mistral",
+      1,
+      "reroute",
+      "none"
+    ],
+    [
+      "mistral",
+      3,
+      "reroute",
+      "none"
+    ],
+    [
+      "mistral",
+      3,
+      "retry",
+      "none"
+    ],
+    [
+      "mistral",
+      6,
+      "reroute",
+      "none"
+    ],
+    [
+      "mistral",
+      6,
+      "retry",
+      "none"
+    ],
+    [
+      "mistral",
+      3,
+      "reroute",
+      "exact"
+    ],
+    [
+      "mixed",
+      3,
+      "reroute",
+      "none"
+    ],
+    [
+      "mixed",
+      6,
+      "reroute",
+      "none"
+    ],
+    [
+      "mixed",
+      3,
+      "reroute",
+      "exact"
+    ]
+  ],
+  "mixed_orders": [
+    [
+      "gpt",
+      "qwen",
+      "mistral"
+    ],
+    [
+      "gpt",
+      "mistral",
+      "qwen"
+    ],
+    [
+      "qwen",
+      "gpt",
+      "mistral"
+    ],
+    [
+      "qwen",
+      "mistral",
+      "gpt"
+    ],
+    [
+      "mistral",
+      "gpt",
+      "qwen"
+    ],
+    [
+      "mistral",
+      "qwen",
+      "gpt"
+    ]
+  ],
+  "reasoning": {
+    "gpt": "low",
+    "qwen": "disabled",
+    "mistral": "not applicable"
+  },
+  "system_sha256": "a6878f1a3e68776d67ff039b0e597a706e6c93bc9e1d6ed37e4e9ba9273bf93e",
+  "source_hashes": {
+    "env.py": "c225d0f31ffb8a2c0ba503a5309404c79071ed707f120ba6ffb1707b1a030df2",
+    "run.py": "f147a4c93fc75d150fb2dffee06d2586d5f3d317cc52a54b8525c35c4f3e5692",
+    "llm.py": "824b2739852e0ffcc3c2f8f7544c0e3a167d4f1ad057fa04c8c982158d479325",
+    "diversity.py": "9a7ee694ec206df01a227e521c79b7d8f2d28cc6a742ab97e38a446880338126"
+  },
+  "interpretation": "Exploratory follow-up after a same-model pilot; no confirmatory significance claims."
+}

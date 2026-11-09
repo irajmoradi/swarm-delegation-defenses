@@ -1,0 +1,26 @@
+{
+  "kind": "deterministic property check; no LLM calls or empirical model claim",
+  "cases": [
+    {
+      "case": "acting principal changes",
+      "old_actor": 1,
+      "new_actor": 2,
+      "old_policy": "v1",
+      "new_policy": "v1",
+      "current_request_permitted": true,
+      "scope_only_false_block": true,
+      "actor_and_policy_partition_false_block": false
+    },
+    {
+      "case": "authorized grant changes policy",
+      "old_actor": 1,
+      "new_actor": 1,
+      "old_policy": "v1",
+      "new_policy": "v2",
+      "current_request_permitted": true,
+      "scope_only_false_block": true,
+      "actor_and_policy_partition_false_block": false
+    }
+  ],
+  "experimental_scope": "The paid memory study fixes actor=1 and policy; this does not alter its outcomes."
+}

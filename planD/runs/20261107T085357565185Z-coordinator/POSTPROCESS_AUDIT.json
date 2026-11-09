@@ -1,0 +1,11 @@
+{
+  "repaired_utc": "2026-11-07T09:12:48.341241+00:00",
+  "issue": "Missing pathlib.Path import in report formatter after all decision records were saved",
+  "repair": "Import added; report regenerated offline with HTTP disabled",
+  "model_calls_repeated": 0,
+  "raw_data_hashes_unchanged": {
+    "episodes.jsonl": "4e07077dc8b6c3d9fe7554249d859cdf9ef0957c5fb2c4c67fdc31693ed786b3",
+    "calls.jsonl": "d3f645dc7fad9211a8200fe823d22816cd55ec0fd230b48854eb7bff3e4ef8ed"
+  },
+  "budget_unchanged_usd": 1.376258167
+}

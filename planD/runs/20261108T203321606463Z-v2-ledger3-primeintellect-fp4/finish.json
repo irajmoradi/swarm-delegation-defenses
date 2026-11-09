@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "sessions": 24,
+  "partial_sessions": 0,
+  "planned_sessions": 24,
+  "calls": 3924,
+  "preflight": {
+    "screen": {
+      "forbidden": "no",
+      "error": null,
+      "dispatch": true
+    },
+    "worker_error": null
+  },
+  "http_429_released": 2,
+  "reported_run_cost_usd": 0.012307724,
+  "budget_before_usd": 1.439737287,
+  "budget_after_usd": 0.752045011
+}

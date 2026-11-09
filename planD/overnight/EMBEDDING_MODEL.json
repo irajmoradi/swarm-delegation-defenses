@@ -1,0 +1,17 @@
+{
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "source": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+  "purpose": "frozen generic sentence embeddings, not intent-trained retrieval",
+  "device": "CPU",
+  "max_threads": 2,
+  "safetensors_available": true,
+  "shape": [
+    96,
+    384
+  ],
+  "pooling": "attention-mask mean pooling then L2 normalization",
+  "max_length": 256,
+  "artifact_sha256": "b8443ec3ea06b6142a880175036b8eac242c4ed2c4c3140682bd4ce3189b31bc",
+  "task_bank_sha256": "070d2db6c68badd8e2542a4698353c0d17b35a58cb8bdc4e13211189b197afd8"
+}

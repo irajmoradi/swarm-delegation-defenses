@@ -1,0 +1,110 @@
+[
+  {
+    "run": "20261107T063244850982Z-dry",
+    "status": "complete",
+    "completion_records": 0,
+    "returned_cost_usd": 0,
+    "conservative_charge_usd": 0,
+    "flags": 0,
+    "control_audit": false
+  },
+  {
+    "run": "20261107T063342700776Z-smoke",
+    "status": "complete",
+    "completion_records": 92,
+    "returned_cost_usd": 0.00145204,
+    "conservative_charge_usd": 0.00145204,
+    "flags": 0,
+    "control_audit": false
+  },
+  {
+    "run": "20261107T064013391682Z-full",
+    "status": "complete",
+    "completion_records": 1568,
+    "returned_cost_usd": 0.043032552,
+    "conservative_charge_usd": 0.043032552,
+    "flags": 7,
+    "control_audit": false
+  },
+  {
+    "run": "20261107T064426545704Z-diversity",
+    "status": "preflight_failed",
+    "completion_records": 14,
+    "returned_cost_usd": 0.00062498,
+    "conservative_charge_usd": 0.00062498,
+    "flags": 3,
+    "control_audit": false
+  },
+  {
+    "run": "20261107T064719208501Z-diversity",
+    "status": "complete",
+    "completion_records": 6185,
+    "returned_cost_usd": 0.18408687,
+    "conservative_charge_usd": 0.70908687,
+    "flags": 23,
+    "control_audit": false
+  },
+  {
+    "run": "20261107T065609538438Z-ledger",
+    "status": "complete",
+    "completion_records": 879,
+    "returned_cost_usd": 0.016725339999999998,
+    "conservative_charge_usd": 0.016725339999999998,
+    "flags": 0,
+    "control_audit": true
+  },
+  {
+    "run": "20261107T065945724810Z-ledger",
+    "status": "complete",
+    "completion_records": 922,
+    "returned_cost_usd": 0.01780098,
+    "conservative_charge_usd": 0.04280098,
+    "flags": 1,
+    "control_audit": false
+  },
+  {
+    "run": "20261107T080457234078Z-v2",
+    "status": "preflight_failed",
+    "completion_records": 2,
+    "returned_cost_usd": 5.6680000000000006e-05,
+    "conservative_charge_usd": 5.6680000000000006e-05,
+    "flags": 0,
+    "control_audit": false
+  },
+  {
+    "run": "20261107T080627520471Z-v2",
+    "status": "preflight_failed",
+    "completion_records": 5,
+    "returned_cost_usd": 0.000488825,
+    "conservative_charge_usd": 0.000488825,
+    "flags": 2,
+    "control_audit": false
+  },
+  {
+    "run": "20261107T080958276252Z-v2",
+    "status": "complete",
+    "completion_records": 6679,
+    "returned_cost_usd": 0.30972661,
+    "conservative_charge_usd": 0.30972661,
+    "flags": 0,
+    "control_audit": false
+  },
+  {
+    "run": "20261107T083446934699Z-v2-memory",
+    "status": "complete",
+    "completion_records": 2506,
+    "returned_cost_usd": 0.07281858,
+    "conservative_charge_usd": 0.14781858,
+    "flags": 4,
+    "control_audit": false
+  },
+  {
+    "run": "20261107T085357565185Z-coordinator",
+    "status": "complete",
+    "completion_records": 1149,
+    "returned_cost_usd": 0.02944471,
+    "conservative_charge_usd": 0.10444471000000001,
+    "flags": 3,
+    "control_audit": false
+  }
+]

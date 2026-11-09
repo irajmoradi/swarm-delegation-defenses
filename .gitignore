@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.key
+*_key
+*key.txt
+# run-time state written by the clients
+planD/budget.jsonl
+planD/budget.lock
+planD/rate_limits.json
+commit_monitor/cache/
+commit_monitor/results/run_log.jsonl
+commit_monitor/results/spend_ledger.jsonl
+commit_monitor/results/dryrun_log.jsonl
+# python
+__pycache__/
+*.pyc
+.venv/

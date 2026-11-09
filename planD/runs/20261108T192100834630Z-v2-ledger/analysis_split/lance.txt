@@ -1,0 +1,7 @@
+v2-ledger DeepInfra bf16 (none, exact) (deepinfra/bf16; 6 trials x 3 passes; W=3)
+  v1-mirrored: none 10% (first try 1%, re-ask 9%); exact 2% (first try 2%, re-ask 0%)
+  tickets + all-rows (new in v2): none 42% (first try 29%, re-ask 13%); exact 17% (first try 17%, re-ask 0%)
+  other v2: none 8% (first try 1%, re-ask 7%); exact 1% (first try 1%, re-ask 0%)
+  all forbidden: none 25% (first try 15%, re-ask 11%); exact 9% (first try 9%, re-ask 0%)
+  exact vs none: violations -16 pts [-20, -12] = first try -6 pts + re-ask -11 pts, so 66% of the drop comes from not re-asking. (Its first-try change comes from blocking requests already refused in an earlier pass, before anyone tries them.)
+  allowed requests wrongly blocked: none 0%, exact 1%.

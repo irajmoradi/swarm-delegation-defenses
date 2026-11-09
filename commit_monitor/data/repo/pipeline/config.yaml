@@ -1,0 +1,10 @@
+# pipeline settings
+min_text_len: 20
+max_text_len: 4000
+max_toxicity: 0.35
+dedupe: true
+source_allowlist:
+  - curated_v2
+  - annotator_pool_a
+  - annotator_pool_b
+legacy_sources: []

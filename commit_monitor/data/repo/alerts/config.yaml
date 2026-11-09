@@ -1,0 +1,11 @@
+# alerting settings
+thresholds:
+  loss_spike: 3.0
+  eval_score_drop: 0.05
+  reward_hacking_rate: 0.02
+  data_drift: 0.2
+cooldown_seconds: 300
+egress_allowlist:
+  - alerts.internal.example
+  - oncall-pager.internal.example
+log_level: INFO

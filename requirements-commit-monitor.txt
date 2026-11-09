@@ -1,0 +1,7 @@
+# Commit monitor (commit_monitor/src). Python 3.12.16 (conda env "swarm"); some files also ran under 3.13.
+# Versions = those installed in that environment, read at release time (2026-11-09); no run-time lock file exists.
+httpx==0.28.1
+numpy==2.3.5
+matplotlib==3.11.2
+PyYAML==6.0.3
+pytest==9.2.0
